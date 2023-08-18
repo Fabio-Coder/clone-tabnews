@@ -1,0 +1,37 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> curso.dev txt +trace
+;; global options: +cmd
+.			14	IN	NS	a.root-servers.net.
+.			14	IN	NS	c.root-servers.net.
+.			14	IN	NS	m.root-servers.net.
+.			14	IN	NS	k.root-servers.net.
+.			14	IN	NS	d.root-servers.net.
+.			14	IN	NS	e.root-servers.net.
+.			14	IN	NS	i.root-servers.net.
+.			14	IN	NS	h.root-servers.net.
+.			14	IN	NS	j.root-servers.net.
+.			14	IN	NS	g.root-servers.net.
+.			14	IN	NS	b.root-servers.net.
+.			14	IN	NS	l.root-servers.net.
+.			14	IN	NS	f.root-servers.net.
+;; Received 811 bytes from 127.0.0.53#53(127.0.0.53) in 0 ms
+
+dev.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
+dev.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
+dev.			86400	IN	DS	60074 8 2 B942E2CE5AEBF62FCA59D05707E6DBB795211D540D8ADBA02E9E89E8 33424785
+dev.			86400	IN	RRSIG	DS 8 1 86400 20230822210000 20230809200000 11019 . RdJ1VofarJ4M8X6yUYisXjxKR3FRs+/lFYBC2TNE4YD2EkxBiFOyLmOJ IJjAnLzI11hOvR8fKYiXW8leyEjUOip9dphgIYZkn1NjCMupvzat+3H5 WYj2I1ilRtcUeL98oDjs29sTc6KozGuBHtefc7XIbjNzf1/1tXy/Eq0t Y9qBx726h60Zui6PRh12I+Gy8NZAavT9LRdoxXmRIW7mN4LqD7QQ4TeY cXVozj2rQeTyD+XM6THuy7Ja/OhgVN1vKRiSNFQj3V3ufvzLRumXBDkZ 33UVSFNrdBJqf6f1suqkVdNWxvd+3X4xP9TwvwLxIyBNK/vOeSH5ZBEQ psNXeg==
+;; Received 729 bytes from 199.9.14.201#53(b.root-servers.net) in 60 ms
+
+curso.dev.		10800	IN	NS	gwen.ns.cloudflare.com.
+curso.dev.		10800	IN	NS	terry.ns.cloudflare.com.
+4l7kbs53njj7jmcajh5r5ijdrcvcf2nt.dev. 300 IN NSEC3 1 0 1 B7B0891083980E59 4L7KMTDDSSRCLODAQQR01SSS1MLJUNNM NS
+4l7kbs53njj7jmcajh5r5ijdrcvcf2nt.dev. 300 IN RRSIG NSEC3 8 2 300 20230830151049 20230808151049 15168 dev. Hd0kvXHdlPTsdPacNIdRUGpckp6I+d7B43QEScESAyek2GSrV/NgF0cy koCOEbz7C43bUAJHtm/A6ir8Xws3X0v5x6voxOnOAI+Gsj3TkjuiVQWj +NFJls67frVKLPpJWfdIBm+2HaTdPFUa1WrbHpQScl0RCw1bAvvYSlld Uh8=
+;; Received 339 bytes from 216.239.38.105#53(ns-tld4.charlestonroadregistry.com) in 32 ms
+
+curso.dev.		300	IN	TXT	"HA! Voce me encontrou, mas o desafio ainda nao terminou, a bandeira esta aqui: aHR0cHM6Ly9jdXJzby5kZXYvd2ViL2Rucy1oNGNrM3I="
+curso.dev.		300	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+;; Received 222 bytes from 173.245.58.160#53(gwen.ns.cloudflare.com) in 8 ms
+
